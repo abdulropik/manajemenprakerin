@@ -1,0 +1,12 @@
+1. Clone Repository
+2. buat file .env dengan cara copy+paste .env.example
+3. edit nama databasenya di file .env
+4. buat database di phpmyadmin, sesuaikan nama databasenya di file .env
+5. jalankan perintah php artisan migrate
+6. jalankan perintah php artisan db:seed --class=RolePermissionSedder 
+7. jalankan perintah php artisan db:seed --class=UserSeeder 
+8. jalankan perintah composer install
+9. jalankan perintah php artisan key:generate
+10. jalankan perintah npm install
+11. jalankan perintah npm run build
+12. jalankan perintah php artisan serve untuk running program
